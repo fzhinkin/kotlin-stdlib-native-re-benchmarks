@@ -1,0 +1,224 @@
+[
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "lib.std.re.RegexBenchmarks.kt53538_1",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/filipp.zhinkin/.gradle/jdks/eclipse_adoptium-21-aarch64-os_x.2/jdk-21.0.4+7/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-Dfile.encoding=UTF-8",
+            "-Duser.country=US",
+            "-Duser.language=en",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "21.0.4",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.4+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 42202.453818838505,
+            "scoreError" : 318.33858528622426,
+            "scoreConfidence" : [
+                41884.11523355228,
+                42520.79240412473
+            ],
+            "scorePercentiles" : {
+                "0.0" : 42119.26578577011,
+                "50.0" : 42188.136061556375,
+                "90.0" : 42324.25374430516,
+                "95.0" : 42324.25374430516,
+                "99.0" : 42324.25374430516,
+                "99.9" : 42324.25374430516,
+                "99.99" : 42324.25374430516,
+                "99.999" : 42324.25374430516,
+                "99.9999" : 42324.25374430516,
+                "100.0" : 42324.25374430516
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    42240.718799917086,
+                    42324.25374430516,
+                    42188.136061556375,
+                    42139.89470264378,
+                    42119.26578577011
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "lib.std.re.RegexBenchmarks.kt53538_2",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/filipp.zhinkin/.gradle/jdks/eclipse_adoptium-21-aarch64-os_x.2/jdk-21.0.4+7/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-Dfile.encoding=UTF-8",
+            "-Duser.country=US",
+            "-Duser.language=en",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "21.0.4",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.4+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 28384.30252534562,
+            "scoreError" : 134.1468103951587,
+            "scoreConfidence" : [
+                28250.155714950462,
+                28518.44933574078
+            ],
+            "scorePercentiles" : {
+                "0.0" : 28338.44334043358,
+                "50.0" : 28375.74623690433,
+                "90.0" : 28430.985204219796,
+                "95.0" : 28430.985204219796,
+                "99.0" : 28430.985204219796,
+                "99.9" : 28430.985204219796,
+                "99.99" : 28430.985204219796,
+                "99.999" : 28430.985204219796,
+                "99.9999" : 28430.985204219796,
+                "100.0" : 28430.985204219796
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    28372.85291243818,
+                    28403.48493273221,
+                    28430.985204219796,
+                    28375.74623690433,
+                    28338.44334043358
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "lib.std.re.RegexBenchmarks.kt67731",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/filipp.zhinkin/.gradle/jdks/eclipse_adoptium-21-aarch64-os_x.2/jdk-21.0.4+7/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-Dfile.encoding=UTF-8",
+            "-Duser.country=US",
+            "-Duser.language=en",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "21.0.4",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.4+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 179990.93620243677,
+            "scoreError" : 5625.05870241205,
+            "scoreConfidence" : [
+                174365.8775000247,
+                185615.99490484883
+            ],
+            "scorePercentiles" : {
+                "0.0" : 177537.1869888356,
+                "50.0" : 180613.46802167429,
+                "90.0" : 181151.83960679133,
+                "95.0" : 181151.83960679133,
+                "99.0" : 181151.83960679133,
+                "99.9" : 181151.83960679133,
+                "99.99" : 181151.83960679133,
+                "99.999" : 181151.83960679133,
+                "99.9999" : 181151.83960679133,
+                "100.0" : 181151.83960679133
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    177537.1869888356,
+                    179799.27546904594,
+                    180613.46802167429,
+                    180852.91092583677,
+                    181151.83960679133
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "lib.std.re.RegexBenchmarks.kt70750",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Users/filipp.zhinkin/.gradle/jdks/eclipse_adoptium-21-aarch64-os_x.2/jdk-21.0.4+7/Contents/Home/bin/java",
+        "jvmArgs" : [
+            "-Dfile.encoding=UTF-8",
+            "-Duser.country=US",
+            "-Duser.language=en",
+            "-Duser.variant"
+        ],
+        "jdkVersion" : "21.0.4",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.4+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 13619.615366311356,
+            "scoreError" : 128.16714733250708,
+            "scoreConfidence" : [
+                13491.448218978849,
+                13747.782513643864
+            ],
+            "scorePercentiles" : {
+                "0.0" : 13582.873361743746,
+                "50.0" : 13606.884970769315,
+                "90.0" : 13664.774811062922,
+                "95.0" : 13664.774811062922,
+                "99.0" : 13664.774811062922,
+                "99.9" : 13664.774811062922,
+                "99.99" : 13664.774811062922,
+                "99.999" : 13664.774811062922,
+                "99.9999" : 13664.774811062922,
+                "100.0" : 13664.774811062922
+            },
+            "scoreUnit" : "ops/s",
+            "rawData" : [
+                [
+                    13642.637420693838,
+                    13664.774811062922,
+                    13606.884970769315,
+                    13600.906267286962,
+                    13582.873361743746
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
