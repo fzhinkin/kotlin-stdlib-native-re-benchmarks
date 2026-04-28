@@ -14,6 +14,7 @@ open class RegexBenchmarks {
     val re67731 = Regex("""(?<!\\\\)\\"""")
     val re53538 = Regex("""(\\*)@\{(([^'}]|('([^'\\]|\\.)*'))*)\}""")
     val re53538_2 = Regex("""(^\w+)|(\.\w+)|(\[\d+\])""")
+    val re83471 = Regex("(?<=[.!?])\\s+")
 
     @Benchmark
     fun kt70750() = re70750.split(TextCorpus.LoremIpsum)
@@ -26,4 +27,7 @@ open class RegexBenchmarks {
 
     @Benchmark
     fun kt53538_2() = re53538_2.findAll(TextCorpus.Kt53538).count()
+
+    @Benchmark
+    fun kt83471() = re83471.split(TextCorpus.Kt83471).count()
 }

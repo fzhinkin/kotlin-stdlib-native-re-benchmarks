@@ -24,4 +24,6 @@ object TextCorpus {
 
         Fusce condimentum lobortis elementum. Mauris pulvinar rhoncus sodales. Mauris at libero quam. Quisque cursus, sem et pulvinar gravida, eros lorem egestas ante, a @{facilisis} felis velit ac lorem. Integer feugiat id odio id congue. @{Phasellus} eget orci ac est iaculis gravida sit amet sed est. Vestibulum eleifend purus ante, nec rutrum arcu scelerisque vitae. Etiam dolor arcu, auctor sed bibendum eget, egestas vitae tellus. In hac habitasse platea dictumst. Proin eget bibendum mauris.
     """.trimIndent()
+
+    val Kt83471 = (1..1000).map { "Line $it! "}.joinToString()
 }
